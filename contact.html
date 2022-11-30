@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+<style>
+.border{
+    background-color: gray;
+    border: 2px saddlebrown;
+    margin: 20px;
+    padding: 20px;
+}
+</style>
+    
+
+</head>
+
+    <div>
+    <a href="project.html" >| HOME |</a>
+    <a href="education.html">| EDUCATION |</a> 
+    <a href="Work.html">| WORK EXPERIENCE |</a>
+    <a href="contact.html">| CONTACT ME |</a>
+    <div class="border"> 
+    <h1>CONTACT ME </h1>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi">
+        <label for="name">Your name:</label><br>
+        <input type="text" id="name" name="name" placeholder=" Enter your name"><br>
+        <label for="sname">Surname:</label><br>
+        <input type="text" id="sname" name="sname" placeholder=" Enter your surname"><br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="checkbox" id="Gender" name="Gender">
+        <label for="MALE">MALE</label><br>
+        <input type="checkbox" id="Gender" name="Gender">
+        <label for="FEMALE">FEMALE</label><br><br>
+
+        <p>Relation :</p>
+        <input list="who">
+        <datalist id="who">
+        <option value="Friend"></option>
+        <option value="Family"></option>
+        <option value="Unknow"></option><br><br>
+        </datalist><br><br>
+        <label for="name">Message Me!:</label><br>
+        <textarea name="message"cols="30" rows="10" placeholder=" Send me you Message..."></textarea>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</div>
+    
+
+    </body>
+</html>
